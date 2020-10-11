@@ -399,14 +399,14 @@ if( !function_exists( 'orchid_store_footer_left_action' ) ) {
 		$copyright_text = orchid_store_get_option( 'copyright_text' );
 		?>
 		<div class="copyrights">
-			<p>
+			<p>&copy 2020
 				<?php
 				if( !empty( $copyright_text ) ) {
 					/* translators: 1: copyright text, 2: theme name, 3: theme author */
-					printf( esc_html__( '%1$s %2$s Theme by %3$s', 'orchid-store' ), $copyright_text, 'Orchid Store', '<a href="https://themebeez.com" rel="author" target="_blank">Themebeez</a>' );
+					printf( esc_html__( "Bản quyền của Công Ty Cổ Phần DD Phatri - ecommerce.com" ));
 				} else {
 					/* translators: 1: theme name, 2: theme author */
-					printf( esc_html__( '%1$s Theme by %2$s', 'orchid-store' ), 'Orchid Store', '<a href="https://themebeez.com" rel="author" target="_blank">Themebeez</a>');
+					printf( esc_html__( "Bản quyền của Công Ty Cổ Phần DD Phatri - ecommerce.com" ));
 				}
 				?>
 			</p>
